@@ -1,0 +1,33 @@
+.header {
+    width: 70%;
+    position: fixed; 
+    z-index: 999; 
+    backdrop-filter: blur(10px);
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+}
+
+.link-nav {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color .5s;
+}
+
+.link-nav:hover {
+    color: #02d6e8;
+    border-color: #02d6e8 ;
+    transition: color .5s;
+}
+
+
+
+
