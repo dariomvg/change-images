@@ -1,1 +1,1 @@
-export const URL_API = process.env.URL_API ?? "http://localhost:5000/api"
+export const URL_API = process.env.NEXT_PUBLIC_URL_API ?? "http://localhost:5000/api"
