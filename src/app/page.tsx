@@ -8,8 +8,8 @@ export default function Home(): JSX.Element {
         <h1 className="title-landing">Change Images</h1>
         <p className="description-landing">
           Convierte imagenes <b className="b-home">.png</b>,{" "}
-          <b className="b-home">.jpg</b>, <b className="b-home">.jpg</b>,{" "}
-          <b className="b-home">.webp</b>, etc. a otros formatos que desees
+          <b className="b-home">.jpg</b>, <b className="b-home">.jpeg</b>,{" "}
+          <b className="b-home">.webp</b>, etc. a los formatos que desees
         </p>
       </section>
       <section className="section-main">
