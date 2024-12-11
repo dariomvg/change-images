@@ -3,7 +3,7 @@ import { useImages } from "@/hooks/useImages";
 import "./images.css";
 import { ChangeEvent } from "react";
 
-export default function images(): JSX.Element {
+export default function Images(): JSX.Element {
   const { convertImage, image, setForm, setType, type, clearImage } = useImages();
 
   const handleChageImage = (e: ChangeEvent<HTMLInputElement>) => {
@@ -36,7 +36,7 @@ export default function images(): JSX.Element {
             <option value="webp">WEBP(mejor rendimiento)</option>
           </select>
         </div>
-        <input type="file" className="input-upload-doc" onChange={handleChageImage} required />
+        <input type="file" className="input-upload-doc" onChange={handleChageImage} required data-testid="file-input" />
         <button className="button-convert" onClick={convertImage }>Convertir</button>
       </section>
     )}
