@@ -1,6 +1,6 @@
 import Images from "@/app/images/page";
 import { useImages } from "@/hooks/useImages";
-import { render, screen, waitFor, fireEvent } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 
 jest.mock("@/hooks/useImages", () => ({
   useImages: jest.fn(),
